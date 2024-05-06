@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 public class MainControl extends AppCompatActivity {
-    Vibrator vibrator;
+    Vibrator vibrator;//震动服务
     int move_state=0;
     ImageView joystick_background=null;
     ImageView joystick=null;
@@ -31,7 +31,7 @@ public class MainControl extends AppCompatActivity {
         vibrator = (Vibrator) getSystemService(VIBRATOR_SERVICE);
 
         //绑定组件id
-        joystick_background= findViewById(R.id.iv_joystick_background);
+        joystick_background= findViewById(R.id.iv_joystick_background);//
         joystick=findViewById(R.id.iv_joystick);
         info=findViewById(R.id.tv_joystick_info);
 
