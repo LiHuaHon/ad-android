@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="main_array">
+        <item>控制</item>
+        <item>设置</item>
+        <item>风扇</item>
+    </string-array>
+</resources>
